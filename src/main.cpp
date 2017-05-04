@@ -17,7 +17,7 @@ using std::vector;
 void check_arguments(int argc, char* argv[]) {
   string usage_instructions = "Usage instructions: ";
   usage_instructions += argv[0];
-  usage_instructions += "data/obj_pose-laser-radar-synthetic-input.txt output.txt";
+  usage_instructions += "path/to/input.txt output.txt";
 
   bool has_valid_args = false;
 
